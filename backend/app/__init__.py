@@ -9,12 +9,15 @@ from .models import db
 from .routes import register_blueprints
 
 def create_app(test_config=None):
-    load_dotenv()
-
-    app = Flask(__name__, instance_relative_config=True)
-
     # Configure project paths
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    backend_env = os.path.join(base_dir, ".env")
+    if os.path.exists(backend_env):
+        load_dotenv(backend_env, override=True)
+    else:
+        load_dotenv()
+
+    app = Flask(__name__, instance_relative_config=True)
     instance_dir = os.path.join(base_dir, "instance")
     generated_dir = os.path.join(base_dir, "generated")
 

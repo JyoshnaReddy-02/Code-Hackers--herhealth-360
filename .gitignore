@@ -25,8 +25,11 @@ dist/
 frontend/.npmrc
 
 # Databases & local instances
+backend/instance/
 backend/instance/*.db
 backend/instance/*.sqlite3
+backend/instance/*.pre_migration_backup
+backend/instance/*.bak
 *.db
 
 # Generated PDFs and reports (Health Passports contain user health data)

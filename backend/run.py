@@ -1,5 +1,10 @@
 import os
 import sys
+from dotenv import load_dotenv
+
+# Ensure backend/.env is loaded explicitly
+backend_dir = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(backend_dir, ".env"), override=True)
 
 # Cache and temporary file paths on E: drive for local development
 if os.name == "nt" and os.path.exists("E:\\herhealth-360"):
