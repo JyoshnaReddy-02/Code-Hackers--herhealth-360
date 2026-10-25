@@ -13,19 +13,62 @@ def create_app(test_config=None):
 
     app = Flask(__name__, instance_relative_config=True)
 
-    # Base project paths on E: drive
+    # Configure project paths
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     instance_dir = os.path.join(base_dir, "instance")
     generated_dir = os.path.join(base_dir, "generated")
 
-    os.makedirs(instance_dir, exist_ok=True)
-    os.makedirs(generated_dir, exist_ok=True)
+    # Local E: drive cache and temp paths if on Windows
+    if os.name == "nt" and os.path.exists("E:\\herhealth-360"):
+        os.environ.setdefault("PYTHONPYCACHEPREFIX", "E:\\herhealth-360\\.cache\\python")
+        os.environ.setdefault("TEMP", "E:\\herhealth-360\\.tmp")
+        os.environ.setdefault("TMP", "E:\\herhealth-360\\.tmp")
+
+    try:
+        os.makedirs(instance_dir, exist_ok=True)
+        os.makedirs(generated_dir, exist_ok=True)
+    except (OSError, PermissionError):
+        pass
 
     default_db_path = f"sqlite:///{os.path.join(instance_dir, 'herhealth.db').replace('\\', '/')}"
 
+    # Resolve Database URI: Check DATABASE_URL or MYSQL_* parameters
+    db_url = os.getenv("DATABASE_URL") or os.getenv("MYSQL_URL")
+    if not db_url:
+        mysql_user = os.getenv("MYSQL_USER")
+        mysql_password = os.getenv("MYSQL_PASSWORD")
+        mysql_host = os.getenv("MYSQL_HOST")
+        mysql_port = os.getenv("MYSQL_PORT", "3306")
+        mysql_db = os.getenv("MYSQL_DATABASE") or os.getenv("MYSQL_DB")
+        if mysql_user and mysql_host and mysql_db:
+            pwd_str = f":{mysql_password}" if mysql_password else ""
+            db_url = f"mysql+pymysql://{mysql_user}{pwd_str}@{mysql_host}:{mysql_port}/{mysql_db}"
+
+    # Fallback to local SQLite if no MySQL/database URL is configured
+    if not db_url:
+        db_url = default_db_path
+
+    # Normalize MySQL driver prefix to use pure-python pymysql
+    if db_url.startswith("mysql://"):
+        db_url = db_url.replace("mysql://", "mysql+pymysql://", 1)
+    elif db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
+
+    # Database engine options for serverless and cloud MySQL resilience
+    engine_options = {}
+    if "mysql" in db_url.lower():
+        engine_options = {
+            "pool_recycle": 280,
+            "pool_pre_ping": True,
+        }
+        if os.getenv("VERCEL"):
+            from sqlalchemy.pool import NullPool
+            engine_options["poolclass"] = NullPool
+
     app.config.from_mapping(
         SECRET_KEY=os.getenv("SECRET_KEY", "dev-secret-herhealth-360-production-platform-key-2026"),
-        SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL", default_db_path),
+        SQLALCHEMY_DATABASE_URI=db_url,
+        SQLALCHEMY_ENGINE_OPTIONS=engine_options,
         SQLALCHEMY_TRACK_MODIFICATIONS=False,
         JSON_SORT_KEYS=False,
     )

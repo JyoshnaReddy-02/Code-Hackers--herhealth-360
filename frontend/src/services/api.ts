@@ -14,7 +14,16 @@ import {
   AdminDoctorQuestionsResponse,
 } from '../types';
 
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string) || '/api/v1';
+const resolveApiBase = (): string => {
+  const envUrl = (import.meta.env.VITE_API_BASE_URL as string)?.trim();
+  if (!envUrl) {
+    return '/api/v1';
+  }
+  const cleanUrl = envUrl.endsWith('/') ? envUrl.slice(0, -1) : envUrl;
+  return cleanUrl.endsWith('/api/v1') ? cleanUrl : `${cleanUrl}/api/v1`;
+};
+
+const API_BASE = resolveApiBase();
 
 class ApiService {
   private token: string | null = null;

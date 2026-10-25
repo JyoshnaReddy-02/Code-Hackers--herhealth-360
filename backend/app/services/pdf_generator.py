@@ -8,16 +8,32 @@ from reportlab.platypus import (
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 
-GENERATED_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "generated")
+import tempfile
+
+def _get_output_dir() -> str:
+    """Returns local project generated folder on E: or temporary directory on Vercel/serverless."""
+    if os.getenv("VERCEL"):
+        out_dir = os.path.join(tempfile.gettempdir(), "herhealth_generated")
+    else:
+        out_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "generated")
+
+    try:
+        os.makedirs(out_dir, exist_ok=True)
+        return out_dir
+    except (OSError, PermissionError):
+        out_dir = os.path.join(tempfile.gettempdir(), "herhealth_generated")
+        os.makedirs(out_dir, exist_ok=True)
+        return out_dir
 
 def generate_health_passport_pdf(user, symptoms, appointments, start_date=None, end_date=None) -> str:
     """
-    Generates a Personal Health Passport PDF using ReportLab and returns the absolute file path on E: drive.
+    Generates a Personal Health Passport PDF using ReportLab and returns the file path.
+    Uses E: drive locally and system temp directory in serverless environments.
     """
-    os.makedirs(GENERATED_DIR, exist_ok=True)
+    output_dir = _get_output_dir()
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     pdf_filename = f"health_passport_user_{user.id}_{timestamp}.pdf"
-    pdf_path = os.path.join(GENERATED_DIR, pdf_filename)
+    pdf_path = os.path.join(output_dir, pdf_filename)
 
     doc = SimpleDocTemplate(
         pdf_path,

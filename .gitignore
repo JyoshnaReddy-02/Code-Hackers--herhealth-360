@@ -21,6 +21,8 @@ dist/
 .tmp/
 *.tmp
 *.log
+.npmrc
+frontend/.npmrc
 
 # Databases & local instances
 backend/instance/*.db
