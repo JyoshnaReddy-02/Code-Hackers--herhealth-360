@@ -47,8 +47,16 @@ def create_app(test_config=None):
             pwd_str = f":{mysql_password}" if mysql_password else ""
             db_url = f"mysql+pymysql://{mysql_user}{pwd_str}@{mysql_host}:{mysql_port}/{mysql_db}"
 
-    # Fallback to local SQLite if no MySQL/database URL is configured
+    # Check if in production or serverless environment
+    is_production = os.getenv("VERCEL") or os.getenv("FLASK_ENV") == "production"
+
+    # Fallback to local SQLite only in local development
     if not db_url:
+        if is_production:
+            raise RuntimeError(
+                "Production Configuration Error: DATABASE_URL environment variable is required in production / on Vercel. "
+                "SQLite fallback is strictly disabled in production to protect data integrity and prevent silent ephemeral data loss."
+            )
         db_url = default_db_path
 
     # Normalize MySQL driver prefix to use pure-python pymysql
@@ -108,6 +116,10 @@ def create_app(test_config=None):
         allowed_origins = "*"
     else:
         origins_list = [o.strip() for o in frontend_origin.split(",") if o.strip()]
+        # Support automatic Vercel preview and production domain
+        vercel_url = os.getenv("VERCEL_URL")
+        if vercel_url:
+            origins_list.append(f"https://{vercel_url}")
         allowed_origins = list(set(origins_list + ["http://127.0.0.1:5173", "http://localhost:5173"]))
 
     CORS(
