@@ -38,6 +38,11 @@ backend/.env
 frontend/.env
 *.env.local
 
+# Private Keys & Certificates
+*.key
+*.p12
+*.pfx
+
 # IDE & OS
 .vscode/
 .idea/

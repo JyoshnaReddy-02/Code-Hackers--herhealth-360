@@ -61,6 +61,26 @@ def create_app(test_config=None):
             "pool_recycle": 280,
             "pool_pre_ping": True,
         }
+
+        # TLS / SSL Certificate configuration for TiDB Cloud & Cloud MySQL
+        connect_args = {}
+        ca_path = os.getenv("TIDB_CA_PATH") or os.getenv("MYSQL_SSL_CA")
+        if not ca_path and "tidbcloud.com" in db_url.lower():
+            # Check project certificate on E: drive
+            local_cert = os.path.join(base_dir, "certs", "isrgrootx1.pem")
+            if os.path.exists(local_cert):
+                ca_path = local_cert
+
+        if ca_path and os.path.exists(ca_path):
+            connect_args["ssl"] = {"ca": ca_path}
+        elif os.getenv("VERCEL"):
+            # On Vercel Linux, system CA bundle is at /etc/ssl/certs/ca-certificates.crt
+            if os.path.exists("/etc/ssl/certs/ca-certificates.crt"):
+                connect_args["ssl"] = {"ca": "/etc/ssl/certs/ca-certificates.crt"}
+
+        if connect_args:
+            engine_options["connect_args"] = connect_args
+
         if os.getenv("VERCEL"):
             from sqlalchemy.pool import NullPool
             engine_options["poolclass"] = NullPool

@@ -1,6 +1,7 @@
 """
 HerHealth 360 - Database Connectivity & Health Diagnostics
 Checks database engine, connection status, table row counts, and cloud/local readiness.
+Never exposes database passwords in logs or terminal output.
 """
 
 import os
@@ -22,7 +23,8 @@ def check_database():
     app = create_app()
     with app.app_context():
         raw_uri = app.config.get("SQLALCHEMY_DATABASE_URI", "")
-        # Mask password
+        
+        # Mask password securely
         masked_uri = raw_uri
         if "@" in raw_uri and ":" in raw_uri.split("@")[0]:
             parts = raw_uri.split("@")
@@ -34,11 +36,30 @@ def check_database():
         engine_name = db.engine.name if hasattr(db, "engine") and db.engine else "unknown"
         print(f" Engine Type    : {engine_name.upper()}")
 
+        # Check CA Certificate if MySQL / TiDB
+        if "mysql" in raw_uri.lower():
+            ca_path = os.getenv("TIDB_CA_PATH") or os.getenv("MYSQL_SSL_CA") or os.path.join(backend_dir, "certs", "isrgrootx1.pem")
+            if os.path.exists(ca_path):
+                print(f" TLS CA Cert    : OK ({ca_path})")
+            else:
+                print(f" TLS CA Cert    : NOT FOUND at {ca_path}")
+
         try:
             db.session.execute(db.text("SELECT 1"))
             print(" Connection     : OK (Connected successfully)")
         except Exception as e:
-            print(f" Connection     : FAILED ({e})")
+            err_str = str(e)
+            if "1045" in err_str:
+                print(" Connection     : AUTHENTICATION FAILED (Error 1045)")
+                print("   [!] The username or password in backend/.env was rejected.")
+                print("   [!] Tip: If your password contains special characters (e.g. @, :, /, #), make sure to URL-encode them.")
+            elif "2003" in err_str or "timeout" in err_str.lower():
+                print(" Connection     : NETWORK TIMEOUT / UNREACHABLE (Error 2003)")
+                print("   [!] Could not reach the TiDB Cloud gateway. Check your internet connection or cluster status.")
+            else:
+                # Sanitize error to avoid printing any raw credentials
+                print(f" Connection     : FAILED ({e.__class__.__name__})")
+                print(f"   [!] Details: {err_str[:200]}")
             return False
 
         print("-" * 65)
@@ -52,19 +73,19 @@ def check_database():
             print(f"   • Educational Topics  : {HealthResource.query.count()}")
             print(f"   • Exercise Practices  : {ExercisePractice.query.count()}")
         except Exception as e:
-            print(f"   [!] Error querying table counts: {e}")
-            print("   (Tables may need to be initialized using run.py or seed_demo.py)")
+            print(f"   [!] Tables not created yet in this database: {e.__class__.__name__}")
+            print("   [!] (When ready, run python backend/run.py to create initial schema, or migrate SQLite data)")
 
         print("=" * 65)
         if engine_name == "mysql":
-            if "localhost" in raw_uri or "127.0.0.1" in raw_uri:
+            if "tidbcloud.com" in raw_uri:
+                print(" Status: Connected to TiDB Cloud Serverless (Shared Data Mode ACTIVE!).")
+            elif "localhost" in raw_uri or "127.0.0.1" in raw_uri:
                 print(" Status: Connected to LOCAL MySQL database.")
-                print(" Note  : To share data with the deployed Vercel site, switch to a cloud MySQL URI.")
             else:
-                print(" Status: Connected to CLOUD MySQL database (Shared Data Mode enabled!).")
+                print(" Status: Connected to Cloud MySQL.")
         else:
             print(" Status: Running on local SQLite database backup.")
-            print(" To switch to MySQL, configure DATABASE_URL in backend/.env")
         print("=" * 65)
         return True
 

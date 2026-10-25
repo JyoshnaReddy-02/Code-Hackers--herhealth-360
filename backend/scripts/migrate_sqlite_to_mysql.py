@@ -49,8 +49,18 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
     sqlite_session = SqliteSession()
 
     # 2. Connect to MySQL
+    connect_args = {}
+    ca_path = os.getenv("TIDB_CA_PATH") or os.getenv("MYSQL_SSL_CA")
+    if not ca_path and "tidbcloud.com" in target_mysql_url.lower():
+        local_cert = os.path.join(backend_dir, "certs", "isrgrootx1.pem")
+        if os.path.exists(local_cert):
+            ca_path = local_cert
+
+    if ca_path and os.path.exists(ca_path):
+        connect_args["ssl"] = {"ca": ca_path}
+
     try:
-        mysql_engine = create_engine(target_mysql_url, pool_recycle=280, pool_pre_ping=True)
+        mysql_engine = create_engine(target_mysql_url, pool_recycle=280, pool_pre_ping=True, connect_args=connect_args)
         # Test connection
         with mysql_engine.connect() as conn:
             pass
