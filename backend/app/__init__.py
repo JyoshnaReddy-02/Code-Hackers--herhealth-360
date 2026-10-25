@@ -12,10 +12,12 @@ def create_app(test_config=None):
     # Configure project paths
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     backend_env = os.path.join(base_dir, ".env")
-    if os.path.exists(backend_env):
-        load_dotenv(backend_env, override=True)
-    else:
-        load_dotenv()
+    # Load local .env only outside of Vercel serverless environment
+    if not os.getenv("VERCEL"):
+        if os.path.exists(backend_env):
+            load_dotenv(backend_env, override=True)
+        else:
+            load_dotenv()
 
     app = Flask(__name__, instance_relative_config=True)
     instance_dir = os.path.join(base_dir, "instance")
@@ -106,6 +108,11 @@ def create_app(test_config=None):
 
     if test_config:
         app.config.update(test_config)
+
+    # Ensure SQLite does not receive MySQL engine or SSL options
+    active_uri = app.config.get("SQLALCHEMY_DATABASE_URI", "")
+    if "sqlite" in active_uri.lower():
+        app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {}
 
     # Initialize Database
     db.init_app(app)
