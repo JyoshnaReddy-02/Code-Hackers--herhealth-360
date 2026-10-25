@@ -1,0 +1,301 @@
+synthetic_id,is_synthetic,recorded_at,category,symptom_name,severity,duration_hours,cycle_day,sleep_quality,fatigue_level,activity_level,mood,triggers,notes
+SYN-0299,True,2026-01-01T15:15:00+00:00,Mood and well-being,Heightened Anxiety,5,5.0,26,1,1,Light,Anxious,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0074,True,2026-01-01T19:30:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,7,5.0,,4,3,Moderate,Irritable,Weather change,Comfortably managed with a heating pad on lower abdomen.
+SYN-0210,True,2026-01-02T16:30:00+00:00,Digestive,Mild Nausea,5,2.0,,4,4,Light,Low,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0094,True,2026-01-02T20:15:00+00:00,Mood and well-being,Heightened Anxiety,4,2.0,25,2,4,Sedentary,Balanced,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0077,True,2026-01-03T02:15:00+00:00,Pregnancy-related observations,Mild Ankle Edema,2,0.5,,4,3,Moderate,Irritable,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0241,True,2026-01-03T02:15:00+00:00,Menstrual,Heavy Flow / Menorrhagia,7,2.0,3,5,3,Light,Low,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0191,True,2026-01-03T15:45:00+00:00,Menstrual,Cramping / Dysmenorrhea,7,8.0,3,5,3,Sedentary,Irritable,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0002,True,2026-01-04T16:15:00+00:00,Digestive,Digestive Bloating,6,1.0,,5,4,Light,Energetic,Intense physical exertion,Felt mild discomfort after sitting for extended periods.
+SYN-0067,True,2026-01-04T16:15:00+00:00,Menstrual,Irregular Spotting,2,1.0,15,5,4,Moderate,Anxious,Weather change,Comfortably managed with a heating pad on lower abdomen.
+SYN-0137,True,2026-01-05T17:00:00+00:00,Digestive,Constipation before cycle,4,3.5,28,1,5,Light,Balanced,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0132,True,2026-01-05T19:15:00+00:00,Menstrual,Heavy Flow / Menorrhagia,4,2.0,2,5,4,High,Low,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0155,True,2026-01-06T15:15:00+00:00,Mood and well-being,Restlessness,5,1.0,,5,5,Light,Low,Caffeine late afternoon,Noticeable relief after gentle walking and stretching.
+SYN-0244,True,2026-01-06T22:30:00+00:00,Pregnancy-related observations,Morning Nausea,4,0.5,,5,4,Light,Low,High sodium dinner,Noted following an unusually demanding deadline.
+SYN-0034,True,2026-01-07T02:45:00+00:00,Menstrual,Pelvic Heaviness,6,8.0,28,2,3,High,Calm,Caffeine late afternoon,"Mild intensity, did not interfere with daily routine."
+SYN-0152,True,2026-01-07T15:30:00+00:00,Menopause-related observations,Sudden Sweating,6,2.0,,5,1,Sedentary,Energetic,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0288,True,2026-01-07T17:15:00+00:00,Digestive,Mild Nausea,3,2.0,,4,5,Sedentary,Balanced,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0128,True,2026-01-07T18:45:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,4,3.5,,5,5,Sedentary,Balanced,High sodium dinner,Noticeable relief after gentle walking and stretching.
+SYN-0184,True,2026-01-07T19:45:00+00:00,Menstrual,Cramping / Dysmenorrhea,4,5.0,2,4,2,Moderate,Low,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0269,True,2026-01-07T21:45:00+00:00,Pregnancy-related observations,Morning Nausea,6,3.5,,4,3,High,Calm,None identified,Coincides with expected luteal phase hormonal shifts.
+SYN-0286,True,2026-01-08T05:30:00+00:00,Digestive,Constipation before cycle,4,3.5,28,4,1,Sedentary,Anxious,Caffeine late afternoon,Comfortably managed with a heating pad on lower abdomen.
+SYN-0264,True,2026-01-08T15:15:00+00:00,Breast,Cyclical Breast Tenderness,6,2.0,21,3,4,Sedentary,Low,Intense physical exertion,"Mild intensity, did not interfere with daily routine."
+SYN-0020,True,2026-01-08T17:45:00+00:00,Menstrual,PMS Bloating,4,3.5,26,4,5,High,Anxious,High sodium dinner,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0240,True,2026-01-08T18:00:00+00:00,Pregnancy-related observations,Morning Nausea,6,5.0,,5,1,Moderate,Balanced,Skipped breakfast,Warm tea and resting in the evening helped soothe the ache.
+SYN-0263,True,2026-01-08T18:15:00+00:00,Menstrual,Pelvic Heaviness,5,0.5,2,5,2,Light,Low,Skipped breakfast,"Mild intensity, did not interfere with daily routine."
+SYN-0243,True,2026-01-08T22:15:00+00:00,Mood and well-being,Low Mood / Tearfulness,5,0.5,28,1,2,Sedentary,Calm,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0181,True,2026-01-08T23:15:00+00:00,Pregnancy-related observations,Mild Ankle Edema,4,0.5,,3,4,Moderate,Balanced,Weather change,Noted following an unusually demanding deadline.
+SYN-0292,True,2026-01-09T03:45:00+00:00,Mood and well-being,Low Mood / Tearfulness,3,8.0,27,3,3,High,Energetic,Weather change,Felt mild discomfort after sitting for extended periods.
+SYN-0255,True,2026-01-09T04:15:00+00:00,Breast,Cyclical Breast Tenderness,5,2.0,21,5,5,Moderate,Calm,High stress workday,Warm tea and resting in the evening helped soothe the ache.
+SYN-0015,True,2026-01-09T20:00:00+00:00,Other,Tension Headache,6,1.0,,1,1,Sedentary,Anxious,Poor sleep previous night,Felt mild discomfort after sitting for extended periods.
+SYN-0233,True,2026-01-09T23:00:00+00:00,Breast,Mild Bilateral Soreness,4,8.0,25,2,4,High,Anxious,Poor sleep previous night,Warm tea and resting in the evening helped soothe the ache.
+SYN-0022,True,2026-01-10T00:00:00+00:00,Digestive,Indigestion / Acid Reflux,2,5.0,,2,5,Sedentary,Irritable,Poor sleep previous night,Noted following an unusually demanding deadline.
+SYN-0231,True,2026-01-10T17:15:00+00:00,Other,Muscle Aches,5,0.5,,1,3,Sedentary,Energetic,Skipped breakfast,Comfortably managed with a heating pad on lower abdomen.
+SYN-0232,True,2026-01-10T18:45:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,3,2.0,,3,3,Light,Energetic,Skipped breakfast,Noticeable relief after gentle walking and stretching.
+SYN-0120,True,2026-01-10T19:00:00+00:00,Other,Muscle Aches,6,0.5,,3,5,Light,Irritable,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0271,True,2026-01-10T23:00:00+00:00,Mood and well-being,Restlessness,2,3.5,,2,5,High,Anxious,High stress workday,Warm tea and resting in the evening helped soothe the ache.
+SYN-0250,True,2026-01-11T00:00:00+00:00,Pregnancy-related observations,Mild Ankle Edema,2,1.0,,3,3,Moderate,Energetic,Caffeine late afternoon,"Mild intensity, did not interfere with daily routine."
+SYN-0193,True,2026-01-11T20:45:00+00:00,Menopause-related observations,Sudden Sweating,4,8.0,,2,3,Sedentary,Balanced,High stress workday,Warm tea and resting in the evening helped soothe the ache.
+SYN-0239,True,2026-01-11T23:15:00+00:00,Breast,Underarm Sensitivity,3,3.5,,5,1,Moderate,Balanced,Weather change,Coincides with expected luteal phase hormonal shifts.
+SYN-0124,True,2026-01-12T03:15:00+00:00,Fatigue and sleep,General Physical Exhaustion,8,1.0,,4,1,Light,Energetic,Caffeine late afternoon,Felt mild discomfort after sitting for extended periods.
+SYN-0249,True,2026-01-12T15:15:00+00:00,Other,Mild Dizziness on Standing,4,3.5,,1,5,Sedentary,Irritable,Skipped breakfast,Noted following an unusually demanding deadline.
+SYN-0068,True,2026-01-12T22:30:00+00:00,Pregnancy-related observations,Lower Back Soreness,4,8.0,,1,2,Moderate,Energetic,None identified,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0092,True,2026-01-13T01:15:00+00:00,Menstrual,Cramping / Dysmenorrhea,5,1.0,2,5,2,Sedentary,Irritable,High sodium dinner,Coincides with expected luteal phase hormonal shifts.
+SYN-0227,True,2026-01-13T02:45:00+00:00,Mood and well-being,Heightened Anxiety,7,3.5,26,4,2,High,Low,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0087,True,2026-01-13T03:45:00+00:00,Menstrual,Irregular Spotting,2,3.5,15,3,5,High,Balanced,Caffeine late afternoon,Warm tea and resting in the evening helped soothe the ache.
+SYN-0261,True,2026-01-13T18:15:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,4,5.0,,4,3,Light,Anxious,High sodium dinner,"Mild intensity, did not interfere with daily routine."
+SYN-0294,True,2026-01-13T22:15:00+00:00,Fatigue and sleep,Difficulty Falling Asleep,5,8.0,,1,2,Moderate,Anxious,Intense physical exertion,Noted following an unusually demanding deadline.
+SYN-0179,True,2026-01-14T00:00:00+00:00,Menopause-related observations,Sudden Sweating,3,1.0,,1,4,High,Anxious,High sodium dinner,Felt mild discomfort after sitting for extended periods.
+SYN-0079,True,2026-01-14T03:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,0.5,,1,3,Sedentary,Low,Caffeine late afternoon,"Mild intensity, did not interfere with daily routine."
+SYN-0018,True,2026-01-14T18:15:00+00:00,Digestive,Indigestion / Acid Reflux,3,3.5,,2,3,High,Anxious,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0211,True,2026-01-14T19:45:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,4,2.0,,3,3,High,Anxious,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0101,True,2026-01-15T00:15:00+00:00,Breast,Underarm Sensitivity,4,1.0,,1,3,Moderate,Calm,Intense physical exertion,Coincides with expected luteal phase hormonal shifts.
+SYN-0192,True,2026-01-15T05:00:00+00:00,Other,Tension Headache,3,1.0,,5,5,Moderate,Low,Intense physical exertion,Noted following an unusually demanding deadline.
+SYN-0089,True,2026-01-15T17:00:00+00:00,Menstrual,Irregular Spotting,5,0.5,14,2,5,Light,Energetic,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0140,True,2026-01-16T17:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,7,0.5,,3,3,Sedentary,Irritable,Intense physical exertion,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0217,True,2026-01-16T18:30:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,4,8.0,12,5,4,High,Irritable,Skipped breakfast,Noted following an unusually demanding deadline.
+SYN-0144,True,2026-01-16T23:15:00+00:00,Fatigue and sleep,Difficulty Falling Asleep,4,2.0,,2,3,Moderate,Calm,Intense physical exertion,Coincides with expected luteal phase hormonal shifts.
+SYN-0242,True,2026-01-17T03:00:00+00:00,Mood and well-being,Restlessness,4,5.0,,1,3,Sedentary,Energetic,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0223,True,2026-01-17T03:15:00+00:00,Digestive,Constipation before cycle,5,1.0,28,2,2,Light,Calm,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0029,True,2026-01-17T15:30:00+00:00,Mood and well-being,Heightened Anxiety,5,1.0,26,1,3,High,Irritable,Skipped breakfast,Coincides with expected luteal phase hormonal shifts.
+SYN-0300,True,2026-01-17T16:45:00+00:00,Other,Muscle Aches,4,1.0,,1,1,Moderate,Low,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0289,True,2026-01-18T01:15:00+00:00,Menstrual,Heavy Flow / Menorrhagia,6,5.0,2,3,4,High,Low,None identified,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0149,True,2026-01-18T03:30:00+00:00,Other,Muscle Aches,2,2.0,,2,4,Sedentary,Low,None identified,Coincides with expected luteal phase hormonal shifts.
+SYN-0131,True,2026-01-18T15:30:00+00:00,Other,Mild Dizziness on Standing,3,8.0,,4,4,Light,Anxious,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0265,True,2026-01-18T17:45:00+00:00,Menopause-related observations,Sudden Sweating,5,1.0,,5,5,Moderate,Anxious,Skipped breakfast,Noted following an unusually demanding deadline.
+SYN-0026,True,2026-01-18T19:00:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,4,2.0,14,2,3,Light,Balanced,Intense physical exertion,Comfortably managed with a heating pad on lower abdomen.
+SYN-0180,True,2026-01-18T23:30:00+00:00,Digestive,Constipation before cycle,4,1.0,27,2,5,Light,Energetic,Intense physical exertion,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0234,True,2026-01-19T03:00:00+00:00,Pregnancy-related observations,Lower Back Soreness,5,2.0,,2,2,Moderate,Balanced,Poor sleep previous night,Coincides with expected luteal phase hormonal shifts.
+SYN-0150,True,2026-01-19T16:00:00+00:00,Fatigue and sleep,General Physical Exhaustion,8,3.5,,2,2,Moderate,Irritable,Caffeine late afternoon,Coincides with expected luteal phase hormonal shifts.
+SYN-0061,True,2026-01-20T17:30:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,2,5.0,13,5,5,Light,Irritable,Weather change,Comfortably managed with a heating pad on lower abdomen.
+SYN-0188,True,2026-01-20T18:30:00+00:00,Digestive,Indigestion / Acid Reflux,3,3.5,,5,3,Moderate,Energetic,None identified,Comfortably managed with a heating pad on lower abdomen.
+SYN-0182,True,2026-01-20T19:45:00+00:00,Breast,Underarm Sensitivity,4,1.0,,2,3,Light,Energetic,High stress workday,Noted following an unusually demanding deadline.
+SYN-0012,True,2026-01-20T20:15:00+00:00,Other,Muscle Aches,2,5.0,,3,4,Sedentary,Calm,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0121,True,2026-01-21T17:15:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,7,2.0,,2,4,Moderate,Balanced,None identified,Coincides with expected luteal phase hormonal shifts.
+SYN-0104,True,2026-01-21T20:30:00+00:00,Mood and well-being,Heightened Anxiety,3,1.0,26,5,1,Sedentary,Low,None identified,Noted following an unusually demanding deadline.
+SYN-0270,True,2026-01-21T22:00:00+00:00,Menstrual,Irregular Spotting,2,2.0,15,1,1,Moderate,Anxious,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0151,True,2026-01-21T22:45:00+00:00,Menopause-related observations,Daytime Hot Flash,6,0.5,,1,4,High,Anxious,High sodium dinner,"Mild intensity, did not interfere with daily routine."
+SYN-0141,True,2026-01-22T02:15:00+00:00,Mood and well-being,Low Mood / Tearfulness,3,1.0,26,2,4,Sedentary,Low,Caffeine late afternoon,Comfortably managed with a heating pad on lower abdomen.
+SYN-0003,True,2026-01-22T02:45:00+00:00,Mood and well-being,Irritability / Brain Fog,3,1.0,,3,1,Sedentary,Energetic,Poor sleep previous night,"Mild intensity, did not interfere with daily routine."
+SYN-0041,True,2026-01-22T02:45:00+00:00,Menopause-related observations,Daytime Hot Flash,4,8.0,,3,5,High,Balanced,High sodium dinner,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0030,True,2026-01-22T03:15:00+00:00,Pregnancy-related observations,Morning Nausea,4,8.0,,3,4,Light,Low,Skipped breakfast,Warm tea and resting in the evening helped soothe the ache.
+SYN-0123,True,2026-01-22T04:15:00+00:00,Breast,Mild Bilateral Soreness,2,8.0,26,3,5,Sedentary,Balanced,Poor sleep previous night,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0086,True,2026-01-22T19:45:00+00:00,Fatigue and sleep,Unrefreshing Sleep,3,3.5,,1,2,Light,Balanced,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0173,True,2026-01-22T20:45:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,5,0.5,14,4,1,High,Anxious,Weather change,Comfortably managed with a heating pad on lower abdomen.
+SYN-0189,True,2026-01-23T02:30:00+00:00,Breast,Cyclical Breast Tenderness,6,3.5,22,5,1,Sedentary,Calm,High stress workday,Felt mild discomfort after sitting for extended periods.
+SYN-0166,True,2026-01-23T21:15:00+00:00,Menstrual,PMS Bloating,5,1.0,26,1,1,Moderate,Irritable,Poor sleep previous night,"Mild intensity, did not interfere with daily routine."
+SYN-0168,True,2026-01-24T15:30:00+00:00,Fatigue and sleep,Difficulty Falling Asleep,4,5.0,,4,4,Moderate,Calm,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0169,True,2026-01-24T17:45:00+00:00,Mood and well-being,Low Mood / Tearfulness,3,2.0,27,2,4,Moderate,Low,Intense physical exertion,Felt mild discomfort after sitting for extended periods.
+SYN-0017,True,2026-01-25T16:00:00+00:00,Pregnancy-related observations,Lower Back Soreness,5,3.5,,4,1,Sedentary,Calm,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0185,True,2026-01-26T02:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,8,8.0,,2,4,Light,Irritable,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0256,True,2026-01-27T05:45:00+00:00,Breast,Cyclical Breast Tenderness,4,0.5,21,4,1,Light,Irritable,Weather change,Noted following an unusually demanding deadline.
+SYN-0274,True,2026-01-27T17:30:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,2,2.0,,4,4,High,Balanced,Intense physical exertion,Warm tea and resting in the evening helped soothe the ache.
+SYN-0215,True,2026-01-27T19:00:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,4,2.0,12,4,1,Moderate,Balanced,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0187,True,2026-01-27T20:30:00+00:00,Pregnancy-related observations,Morning Nausea,7,1.0,,2,1,Moderate,Irritable,Weather change,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0298,True,2026-01-28T03:15:00+00:00,Breast,Mild Bilateral Soreness,2,1.0,27,4,4,High,Energetic,None identified,Noted following an unusually demanding deadline.
+SYN-0021,True,2026-01-28T15:00:00+00:00,Mood and well-being,Heightened Anxiety,3,5.0,28,5,5,Light,Calm,Poor sleep previous night,Noticeable relief after gentle walking and stretching.
+SYN-0163,True,2026-01-28T18:30:00+00:00,Other,Muscle Aches,4,1.0,,1,5,Light,Anxious,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0290,True,2026-01-28T22:30:00+00:00,Other,Muscle Aches,5,5.0,,1,1,Moderate,Irritable,Intense physical exertion,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0058,True,2026-01-29T02:45:00+00:00,Fatigue and sleep,Unrefreshing Sleep,3,1.0,,3,2,Moderate,Anxious,Intense physical exertion,Felt mild discomfort after sitting for extended periods.
+SYN-0127,True,2026-01-29T04:15:00+00:00,Other,Muscle Aches,6,5.0,,4,1,Moderate,Anxious,Intense physical exertion,Warm tea and resting in the evening helped soothe the ache.
+SYN-0253,True,2026-01-29T04:30:00+00:00,Breast,Cyclical Breast Tenderness,3,2.0,24,5,1,Moderate,Low,Skipped breakfast,Felt mild discomfort after sitting for extended periods.
+SYN-0045,True,2026-01-29T19:45:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,7,2.0,,4,2,High,Anxious,High stress workday,Noted following an unusually demanding deadline.
+SYN-0056,True,2026-01-29T21:15:00+00:00,Fatigue and sleep,Unrefreshing Sleep,6,5.0,,5,3,High,Balanced,Caffeine late afternoon,"Mild intensity, did not interfere with daily routine."
+SYN-0048,True,2026-01-30T01:00:00+00:00,Menstrual,Cramping / Dysmenorrhea,4,1.0,1,5,2,Light,Anxious,None identified,Warm tea and resting in the evening helped soothe the ache.
+SYN-0072,True,2026-01-30T04:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,5,3.5,,3,5,Moderate,Energetic,None identified,Comfortably managed with a heating pad on lower abdomen.
+SYN-0177,True,2026-01-30T04:00:00+00:00,Menstrual,Irregular Spotting,5,8.0,20,5,4,High,Anxious,High sodium dinner,Comfortably managed with a heating pad on lower abdomen.
+SYN-0276,True,2026-01-30T04:30:00+00:00,Menstrual,Heavy Flow / Menorrhagia,9,8.0,1,1,3,High,Irritable,High sodium dinner,Felt mild discomfort after sitting for extended periods.
+SYN-0093,True,2026-01-30T20:15:00+00:00,Menstrual,Irregular Spotting,3,1.0,20,3,2,Sedentary,Balanced,High stress workday,Noticeable relief after gentle walking and stretching.
+SYN-0198,True,2026-01-31T04:00:00+00:00,Mood and well-being,Restlessness,4,0.5,,3,4,High,Anxious,Caffeine late afternoon,Noted following an unusually demanding deadline.
+SYN-0013,True,2026-01-31T15:15:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,6,0.5,,5,2,Light,Balanced,None identified,Noticeable relief after gentle walking and stretching.
+SYN-0063,True,2026-01-31T17:00:00+00:00,Breast,Cyclical Breast Tenderness,5,3.5,25,4,3,Sedentary,Anxious,Intense physical exertion,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0055,True,2026-02-01T02:45:00+00:00,Menopause-related observations,Sudden Sweating,4,8.0,,4,4,High,Calm,Poor sleep previous night,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0073,True,2026-02-01T22:15:00+00:00,Pregnancy-related observations,Morning Nausea,7,5.0,,2,1,Moderate,Energetic,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0213,True,2026-02-01T23:15:00+00:00,Other,Tension Headache,4,5.0,,4,4,Light,Energetic,Skipped breakfast,Noticeable relief after gentle walking and stretching.
+SYN-0172,True,2026-02-02T01:00:00+00:00,Other,Mild Dizziness on Standing,4,0.5,,5,1,Sedentary,Irritable,High sodium dinner,Noticeable relief after gentle walking and stretching.
+SYN-0027,True,2026-02-03T05:00:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,4,0.5,,1,3,Light,Balanced,Intense physical exertion,Noticeable relief after gentle walking and stretching.
+SYN-0014,True,2026-02-03T23:45:00+00:00,Digestive,Mild Nausea,4,3.5,,3,4,High,Calm,High sodium dinner,Coincides with expected luteal phase hormonal shifts.
+SYN-0170,True,2026-02-04T01:30:00+00:00,Digestive,Digestive Bloating,7,0.5,,4,3,Light,Energetic,Intense physical exertion,Warm tea and resting in the evening helped soothe the ache.
+SYN-0260,True,2026-02-04T17:00:00+00:00,Mood and well-being,Low Mood / Tearfulness,3,2.0,26,4,5,Moderate,Irritable,High sodium dinner,Noticeable relief after gentle walking and stretching.
+SYN-0203,True,2026-02-04T22:15:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,5,2.0,13,3,4,Sedentary,Low,Intense physical exertion,Coincides with expected luteal phase hormonal shifts.
+SYN-0065,True,2026-02-05T04:15:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,4,2.0,,5,5,Moderate,Energetic,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0007,True,2026-02-05T05:15:00+00:00,Mood and well-being,Heightened Anxiety,4,0.5,27,4,3,Sedentary,Anxious,Caffeine late afternoon,Coincides with expected luteal phase hormonal shifts.
+SYN-0280,True,2026-02-05T23:45:00+00:00,Menstrual,Pelvic Heaviness,6,5.0,2,1,4,Light,Anxious,Poor sleep previous night,Warm tea and resting in the evening helped soothe the ache.
+SYN-0225,True,2026-02-06T04:15:00+00:00,Breast,Cyclical Breast Tenderness,3,8.0,23,2,4,High,Anxious,Intense physical exertion,Noted following an unusually demanding deadline.
+SYN-0133,True,2026-02-06T20:00:00+00:00,Mood and well-being,Irritability / Brain Fog,2,2.0,,4,4,High,Energetic,Caffeine late afternoon,Noticeable relief after gentle walking and stretching.
+SYN-0167,True,2026-02-06T22:45:00+00:00,Breast,Underarm Sensitivity,4,2.0,,2,1,Moderate,Anxious,None identified,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0038,True,2026-02-06T23:30:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,4,1.0,12,2,1,Sedentary,Anxious,None identified,Warm tea and resting in the evening helped soothe the ache.
+SYN-0084,True,2026-02-07T03:15:00+00:00,Mood and well-being,Low Mood / Tearfulness,4,5.0,27,2,1,Sedentary,Low,None identified,Felt mild discomfort after sitting for extended periods.
+SYN-0246,True,2026-02-07T03:30:00+00:00,Mood and well-being,Heightened Anxiety,7,3.5,25,3,2,Moderate,Irritable,Intense physical exertion,Coincides with expected luteal phase hormonal shifts.
+SYN-0109,True,2026-02-07T16:45:00+00:00,Menstrual,Irregular Spotting,3,5.0,15,3,1,High,Calm,High sodium dinner,Noted following an unusually demanding deadline.
+SYN-0107,True,2026-02-07T20:00:00+00:00,Menstrual,PMS Bloating,5,1.0,25,4,5,Light,Irritable,Caffeine late afternoon,Warm tea and resting in the evening helped soothe the ache.
+SYN-0129,True,2026-02-07T21:00:00+00:00,Mood and well-being,Low Mood / Tearfulness,7,3.5,26,1,5,Moderate,Calm,High stress workday,Noted following an unusually demanding deadline.
+SYN-0011,True,2026-02-07T21:15:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,5.0,,2,5,Sedentary,Balanced,Intense physical exertion,Coincides with expected luteal phase hormonal shifts.
+SYN-0206,True,2026-02-08T02:45:00+00:00,Digestive,Constipation before cycle,5,2.0,27,3,1,Light,Irritable,Skipped breakfast,Felt mild discomfort after sitting for extended periods.
+SYN-0283,True,2026-02-08T19:30:00+00:00,Menopause-related observations,Sudden Sweating,3,1.0,,2,3,High,Low,Intense physical exertion,Noted following an unusually demanding deadline.
+SYN-0050,True,2026-02-10T00:45:00+00:00,Pregnancy-related observations,Mild Ankle Edema,2,0.5,,5,2,Sedentary,Balanced,Intense physical exertion,Warm tea and resting in the evening helped soothe the ache.
+SYN-0118,True,2026-02-10T01:45:00+00:00,Breast,Underarm Sensitivity,1,2.0,,5,4,Moderate,Anxious,Poor sleep previous night,Noted following an unusually demanding deadline.
+SYN-0266,True,2026-02-10T02:30:00+00:00,Breast,Cyclical Breast Tenderness,2,8.0,25,4,5,Sedentary,Anxious,Caffeine late afternoon,Coincides with expected luteal phase hormonal shifts.
+SYN-0285,True,2026-02-10T02:45:00+00:00,Breast,Underarm Sensitivity,1,1.0,,2,2,Sedentary,Anxious,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0245,True,2026-02-10T19:00:00+00:00,Mood and well-being,Heightened Anxiety,7,8.0,25,2,2,Sedentary,Energetic,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0200,True,2026-02-10T20:00:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,5,3.5,,3,3,Sedentary,Anxious,Poor sleep previous night,Noticeable relief after gentle walking and stretching.
+SYN-0143,True,2026-02-11T01:00:00+00:00,Menopause-related observations,Daytime Hot Flash,7,2.0,,2,5,Light,Anxious,Weather change,Felt mild discomfort after sitting for extended periods.
+SYN-0297,True,2026-02-11T04:15:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,4,8.0,,2,3,Sedentary,Calm,None identified,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0024,True,2026-02-11T05:00:00+00:00,Menstrual,PMS Bloating,6,5.0,24,1,5,Light,Irritable,Intense physical exertion,Noticeable relief after gentle walking and stretching.
+SYN-0135,True,2026-02-11T16:00:00+00:00,Mood and well-being,Irritability / Brain Fog,4,3.5,,5,4,Light,Balanced,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0054,True,2026-02-11T17:45:00+00:00,Digestive,Constipation before cycle,4,2.0,27,5,3,Sedentary,Irritable,High sodium dinner,Warm tea and resting in the evening helped soothe the ache.
+SYN-0053,True,2026-02-12T04:15:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,7,1.0,2,5,5,High,Low,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0075,True,2026-02-12T04:15:00+00:00,Digestive,Indigestion / Acid Reflux,3,3.5,,1,3,High,Balanced,Weather change,Noted following an unusually demanding deadline.
+SYN-0248,True,2026-02-12T15:45:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,4,5.0,,2,4,High,Calm,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0016,True,2026-02-12T16:15:00+00:00,Fatigue and sleep,General Physical Exhaustion,5,5.0,,2,5,High,Anxious,None identified,Noted following an unusually demanding deadline.
+SYN-0117,True,2026-02-12T16:45:00+00:00,Fatigue and sleep,Unrefreshing Sleep,8,8.0,,5,2,Moderate,Calm,Skipped breakfast,"Mild intensity, did not interfere with daily routine."
+SYN-0272,True,2026-02-12T18:15:00+00:00,Pregnancy-related observations,Mild Ankle Edema,3,8.0,,3,3,Light,Calm,High stress workday,Noted following an unusually demanding deadline.
+SYN-0295,True,2026-02-12T20:30:00+00:00,Fatigue and sleep,General Physical Exhaustion,4,3.5,,1,5,Sedentary,Energetic,High sodium dinner,Warm tea and resting in the evening helped soothe the ache.
+SYN-0078,True,2026-02-13T04:45:00+00:00,Mood and well-being,Restlessness,2,5.0,,1,2,Moderate,Anxious,Poor sleep previous night,Noted following an unusually demanding deadline.
+SYN-0228,True,2026-02-13T23:15:00+00:00,Menopause-related observations,Daytime Hot Flash,3,0.5,,1,4,Sedentary,Calm,Skipped breakfast,Comfortably managed with a heating pad on lower abdomen.
+SYN-0178,True,2026-02-14T17:30:00+00:00,Digestive,Digestive Bloating,2,8.0,,4,5,Sedentary,Anxious,High sodium dinner,Warm tea and resting in the evening helped soothe the ache.
+SYN-0111,True,2026-02-14T20:15:00+00:00,Digestive,Digestive Bloating,3,2.0,,2,2,Light,Balanced,Poor sleep previous night,Noticeable relief after gentle walking and stretching.
+SYN-0004,True,2026-02-15T00:30:00+00:00,Menstrual,PMS Bloating,6,0.5,27,1,5,Moderate,Balanced,Caffeine late afternoon,Coincides with expected luteal phase hormonal shifts.
+SYN-0162,True,2026-02-15T03:15:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,5,8.0,,1,3,High,Balanced,Intense physical exertion,Comfortably managed with a heating pad on lower abdomen.
+SYN-0025,True,2026-02-15T05:00:00+00:00,Digestive,Constipation before cycle,4,1.0,27,5,3,Sedentary,Balanced,Intense physical exertion,Warm tea and resting in the evening helped soothe the ache.
+SYN-0009,True,2026-02-16T18:15:00+00:00,Other,Mild Dizziness on Standing,2,0.5,,1,2,Light,Balanced,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0237,True,2026-02-16T23:15:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,4,5.0,,1,1,Moderate,Anxious,High stress workday,Felt mild discomfort after sitting for extended periods.
+SYN-0153,True,2026-02-17T03:45:00+00:00,Mood and well-being,Heightened Anxiety,6,0.5,26,3,5,Moderate,Calm,Weather change,Comfortably managed with a heating pad on lower abdomen.
+SYN-0006,True,2026-02-17T20:15:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,7,8.0,,2,5,Light,Anxious,None identified,Noted following an unusually demanding deadline.
+SYN-0138,True,2026-02-17T22:00:00+00:00,Breast,Underarm Sensitivity,3,3.5,,3,3,Light,Calm,High stress workday,Noticeable relief after gentle walking and stretching.
+SYN-0226,True,2026-02-18T22:00:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,6,8.0,,3,3,High,Energetic,Caffeine late afternoon,Felt mild discomfort after sitting for extended periods.
+SYN-0186,True,2026-02-18T22:30:00+00:00,Fatigue and sleep,Unrefreshing Sleep,5,5.0,,4,4,Sedentary,Balanced,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0176,True,2026-02-18T22:45:00+00:00,Pregnancy-related observations,Morning Nausea,7,1.0,,3,1,Light,Irritable,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0083,True,2026-02-19T00:30:00+00:00,Fatigue and sleep,Unrefreshing Sleep,3,8.0,,4,3,Sedentary,Irritable,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0031,True,2026-02-19T04:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,5,3.5,,3,3,Light,Anxious,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0010,True,2026-02-19T21:45:00+00:00,Other,Mild Dizziness on Standing,2,8.0,,1,5,Moderate,Balanced,Caffeine late afternoon,Warm tea and resting in the evening helped soothe the ache.
+SYN-0277,True,2026-02-20T04:45:00+00:00,Other,Muscle Aches,5,5.0,,2,4,Moderate,Calm,Weather change,Felt mild discomfort after sitting for extended periods.
+SYN-0238,True,2026-02-20T23:30:00+00:00,Other,Mild Dizziness on Standing,5,8.0,,4,1,Light,Low,Poor sleep previous night,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0156,True,2026-02-21T00:30:00+00:00,Mood and well-being,Restlessness,4,3.5,,1,3,Moderate,Balanced,Poor sleep previous night,Noted following an unusually demanding deadline.
+SYN-0108,True,2026-02-21T04:00:00+00:00,Pregnancy-related observations,Morning Nausea,6,0.5,,3,5,High,Irritable,Weather change,Noted following an unusually demanding deadline.
+SYN-0282,True,2026-02-21T17:45:00+00:00,Menstrual,PMS Bloating,4,8.0,25,1,4,Moderate,Low,High stress workday,"Mild intensity, did not interfere with daily routine."
+SYN-0032,True,2026-02-21T20:30:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,6,8.0,2,5,3,Sedentary,Calm,Intense physical exertion,Noticeable relief after gentle walking and stretching.
+SYN-0194,True,2026-02-21T21:45:00+00:00,Other,Mild Dizziness on Standing,2,8.0,,1,2,Sedentary,Energetic,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0254,True,2026-02-22T04:45:00+00:00,Other,Muscle Aches,6,1.0,,1,4,Sedentary,Anxious,Poor sleep previous night,Felt mild discomfort after sitting for extended periods.
+SYN-0070,True,2026-02-22T15:15:00+00:00,Other,Mild Dizziness on Standing,5,8.0,,4,1,Light,Low,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0252,True,2026-02-22T16:30:00+00:00,Digestive,Indigestion / Acid Reflux,4,3.5,,3,1,Sedentary,Anxious,Intense physical exertion,Felt mild discomfort after sitting for extended periods.
+SYN-0190,True,2026-02-22T17:15:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,2,1.0,14,4,3,Sedentary,Irritable,None identified,Comfortably managed with a heating pad on lower abdomen.
+SYN-0202,True,2026-02-22T21:00:00+00:00,Other,Tension Headache,6,5.0,,2,4,Light,Anxious,Intense physical exertion,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0125,True,2026-02-23T15:45:00+00:00,Other,Mild Dizziness on Standing,3,3.5,,1,3,Light,Calm,Caffeine late afternoon,Warm tea and resting in the evening helped soothe the ache.
+SYN-0259,True,2026-02-23T18:15:00+00:00,Other,Tension Headache,5,8.0,,3,4,High,Low,Caffeine late afternoon,Noted following an unusually demanding deadline.
+SYN-0183,True,2026-02-23T23:15:00+00:00,Pregnancy-related observations,Morning Nausea,5,1.0,,3,1,High,Low,Poor sleep previous night,Coincides with expected luteal phase hormonal shifts.
+SYN-0036,True,2026-02-24T01:45:00+00:00,Breast,Underarm Sensitivity,3,3.5,,5,1,Moderate,Low,High sodium dinner,Noted following an unusually demanding deadline.
+SYN-0218,True,2026-02-24T17:45:00+00:00,Other,Muscle Aches,3,5.0,,2,4,Moderate,Anxious,Skipped breakfast,"Mild intensity, did not interfere with daily routine."
+SYN-0099,True,2026-02-24T20:30:00+00:00,Mood and well-being,Low Mood / Tearfulness,6,0.5,26,1,1,High,Calm,Caffeine late afternoon,Noticeable relief after gentle walking and stretching.
+SYN-0208,True,2026-02-25T03:45:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,6,3.5,,5,4,High,Irritable,High stress workday,"Mild intensity, did not interfere with daily routine."
+SYN-0102,True,2026-02-25T04:00:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,4,2.0,,3,3,Moderate,Calm,Skipped breakfast,Noticeable relief after gentle walking and stretching.
+SYN-0080,True,2026-02-25T17:15:00+00:00,Other,Mild Dizziness on Standing,3,1.0,,2,1,High,Irritable,High sodium dinner,Comfortably managed with a heating pad on lower abdomen.
+SYN-0199,True,2026-02-25T17:45:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,5,8.0,1,1,3,Light,Energetic,Skipped breakfast,Noted following an unusually demanding deadline.
+SYN-0052,True,2026-02-25T20:45:00+00:00,Breast,Mild Bilateral Soreness,3,8.0,27,3,5,High,Energetic,Weather change,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0201,True,2026-02-25T22:45:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,3,2.0,,5,1,Moderate,Energetic,High stress workday,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0042,True,2026-02-26T16:30:00+00:00,Digestive,Constipation before cycle,4,2.0,28,1,2,Light,Anxious,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0062,True,2026-02-26T19:45:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,7,8.0,,1,2,Light,Low,Poor sleep previous night,Noticeable relief after gentle walking and stretching.
+SYN-0082,True,2026-02-26T20:30:00+00:00,Pregnancy-related observations,Mild Ankle Edema,3,3.5,,3,2,High,Energetic,Poor sleep previous night,Coincides with expected luteal phase hormonal shifts.
+SYN-0205,True,2026-02-26T20:45:00+00:00,Breast,Mild Bilateral Soreness,4,5.0,27,2,4,Moderate,Anxious,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0148,True,2026-02-26T21:45:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,5.0,,2,3,Moderate,Balanced,Caffeine late afternoon,Noted following an unusually demanding deadline.
+SYN-0091,True,2026-02-26T22:15:00+00:00,Mood and well-being,Heightened Anxiety,5,5.0,27,1,4,Moderate,Anxious,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0222,True,2026-02-26T23:15:00+00:00,Pregnancy-related observations,Morning Nausea,4,2.0,,1,4,Moderate,Low,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0028,True,2026-02-26T23:45:00+00:00,Other,Tension Headache,2,0.5,,2,5,Sedentary,Low,Skipped breakfast,Noted following an unusually demanding deadline.
+SYN-0071,True,2026-02-27T05:45:00+00:00,Pelvic or abdominal discomfort,Lower Abdominal Aching,7,1.0,,2,3,Sedentary,Irritable,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0136,True,2026-02-27T15:30:00+00:00,Pregnancy-related observations,Lower Back Soreness,2,0.5,,4,3,Light,Calm,Skipped breakfast,Comfortably managed with a heating pad on lower abdomen.
+SYN-0251,True,2026-02-27T19:15:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,3,5.0,12,2,1,Light,Energetic,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0219,True,2026-02-28T00:00:00+00:00,Mood and well-being,Heightened Anxiety,6,1.0,26,4,5,High,Energetic,None identified,Noted following an unusually demanding deadline.
+SYN-0095,True,2026-02-28T03:30:00+00:00,Other,Muscle Aches,2,3.5,,5,2,Sedentary,Balanced,Intense physical exertion,Comfortably managed with a heating pad on lower abdomen.
+SYN-0229,True,2026-02-28T15:45:00+00:00,Digestive,Mild Nausea,4,1.0,,3,1,Moderate,Low,Poor sleep previous night,"Mild intensity, did not interfere with daily routine."
+SYN-0047,True,2026-02-28T20:30:00+00:00,Pregnancy-related observations,Lower Back Soreness,5,2.0,,1,4,Sedentary,Balanced,High stress workday,"Mild intensity, did not interfere with daily routine."
+SYN-0039,True,2026-02-28T21:15:00+00:00,Pregnancy-related observations,Lower Back Soreness,5,1.0,,2,1,Sedentary,Energetic,High sodium dinner,Noticeable relief after gentle walking and stretching.
+SYN-0247,True,2026-03-01T20:45:00+00:00,Digestive,Mild Nausea,3,0.5,,4,1,Light,Irritable,Caffeine late afternoon,Felt mild discomfort after sitting for extended periods.
+SYN-0207,True,2026-03-02T02:15:00+00:00,Menopause-related observations,Daytime Hot Flash,3,3.5,,4,2,Moderate,Anxious,Intense physical exertion,Noticeable relief after gentle walking and stretching.
+SYN-0130,True,2026-03-02T15:45:00+00:00,Mood and well-being,Irritability / Brain Fog,2,2.0,,1,3,Light,Balanced,Poor sleep previous night,"Mild intensity, did not interfere with daily routine."
+SYN-0212,True,2026-03-02T16:45:00+00:00,Menopause-related observations,Daytime Hot Flash,3,2.0,,1,1,Sedentary,Low,Poor sleep previous night,Noticeable relief after gentle walking and stretching.
+SYN-0060,True,2026-03-02T22:45:00+00:00,Mood and well-being,Low Mood / Tearfulness,3,2.0,27,1,1,High,Energetic,Poor sleep previous night,Felt mild discomfort after sitting for extended periods.
+SYN-0105,True,2026-03-05T00:45:00+00:00,Pregnancy-related observations,Lower Back Soreness,3,5.0,,1,3,High,Calm,Intense physical exertion,Comfortably managed with a heating pad on lower abdomen.
+SYN-0257,True,2026-03-05T15:45:00+00:00,Pregnancy-related observations,Morning Nausea,5,1.0,,2,3,Moderate,Energetic,Skipped breakfast,Felt mild discomfort after sitting for extended periods.
+SYN-0236,True,2026-03-05T21:00:00+00:00,Digestive,Indigestion / Acid Reflux,2,5.0,,1,3,Moderate,Anxious,Weather change,Noted following an unusually demanding deadline.
+SYN-0139,True,2026-03-05T23:45:00+00:00,Other,Tension Headache,4,2.0,,4,2,Moderate,Balanced,None identified,Coincides with expected luteal phase hormonal shifts.
+SYN-0134,True,2026-03-06T02:45:00+00:00,Mood and well-being,Irritability / Brain Fog,2,8.0,,4,1,High,Irritable,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0278,True,2026-03-07T00:15:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,3,1.0,,2,2,Light,Calm,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0159,True,2026-03-07T03:45:00+00:00,Menstrual,Heavy Flow / Menorrhagia,8,1.0,3,3,4,High,Low,Skipped breakfast,Comfortably managed with a heating pad on lower abdomen.
+SYN-0119,True,2026-03-07T20:00:00+00:00,Mood and well-being,Irritability / Brain Fog,3,1.0,,3,4,Light,Anxious,Skipped breakfast,Noticeable relief after gentle walking and stretching.
+SYN-0116,True,2026-03-09T23:15:00+00:00,Mood and well-being,Irritability / Brain Fog,4,3.5,,4,3,Sedentary,Balanced,Caffeine late afternoon,Warm tea and resting in the evening helped soothe the ache.
+SYN-0106,True,2026-03-10T01:30:00+00:00,Menstrual,Heavy Flow / Menorrhagia,7,5.0,1,1,2,Moderate,Anxious,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0122,True,2026-03-10T18:30:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,8.0,,5,4,High,Low,Weather change,Noted following an unusually demanding deadline.
+SYN-0221,True,2026-03-10T19:15:00+00:00,Menopause-related observations,Sudden Sweating,6,5.0,,5,1,Sedentary,Low,Caffeine late afternoon,Felt mild discomfort after sitting for extended periods.
+SYN-0160,True,2026-03-10T20:30:00+00:00,Fatigue and sleep,General Physical Exhaustion,5,1.0,,3,5,Moderate,Anxious,Intense physical exertion,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0196,True,2026-03-12T00:00:00+00:00,Breast,Mild Bilateral Soreness,2,1.0,27,2,4,Sedentary,Low,Skipped breakfast,Coincides with expected luteal phase hormonal shifts.
+SYN-0019,True,2026-03-12T16:00:00+00:00,Other,Tension Headache,2,1.0,,2,4,High,Energetic,High sodium dinner,Noted following an unusually demanding deadline.
+SYN-0142,True,2026-03-12T17:00:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,7,8.0,2,5,4,High,Irritable,Poor sleep previous night,Noticeable relief after gentle walking and stretching.
+SYN-0154,True,2026-03-12T19:00:00+00:00,Breast,Cyclical Breast Tenderness,5,2.0,23,5,3,Light,Anxious,Weather change,Felt mild discomfort after sitting for extended periods.
+SYN-0235,True,2026-03-13T00:30:00+00:00,Menstrual,Irregular Spotting,3,5.0,20,5,2,High,Low,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0100,True,2026-03-13T15:30:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,4,8.0,,4,1,Moderate,Irritable,Intense physical exertion,"Mild intensity, did not interfere with daily routine."
+SYN-0174,True,2026-03-14T15:45:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,6,2.0,,1,2,Sedentary,Calm,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0049,True,2026-03-14T18:45:00+00:00,Fatigue and sleep,Unrefreshing Sleep,4,5.0,,5,1,Light,Low,Poor sleep previous night,Felt mild discomfort after sitting for extended periods.
+SYN-0103,True,2026-03-15T01:45:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,2,0.5,14,5,2,High,Energetic,None identified,"Mild intensity, did not interfere with daily routine."
+SYN-0051,True,2026-03-15T03:00:00+00:00,Mood and well-being,Restlessness,4,0.5,,5,3,Sedentary,Energetic,None identified,Warm tea and resting in the evening helped soothe the ache.
+SYN-0281,True,2026-03-15T03:00:00+00:00,Fatigue and sleep,Unrefreshing Sleep,6,2.0,,4,4,High,Calm,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0195,True,2026-03-15T04:00:00+00:00,Other,Tension Headache,3,1.0,,5,4,Moderate,Calm,Poor sleep previous night,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0197,True,2026-03-15T04:45:00+00:00,Other,Mild Dizziness on Standing,5,8.0,,2,1,Moderate,Calm,Poor sleep previous night,Noted following an unusually demanding deadline.
+SYN-0273,True,2026-03-15T23:45:00+00:00,Breast,Cyclical Breast Tenderness,4,0.5,24,1,3,High,Anxious,Poor sleep previous night,Felt mild discomfort after sitting for extended periods.
+SYN-0081,True,2026-03-16T17:15:00+00:00,Menopause-related observations,Sudden Sweating,5,3.5,,3,1,High,Low,Skipped breakfast,Warm tea and resting in the evening helped soothe the ache.
+SYN-0033,True,2026-03-16T19:00:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,4,8.0,,3,4,Sedentary,Energetic,High sodium dinner,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0157,True,2026-03-16T19:00:00+00:00,Menopause-related observations,Daytime Hot Flash,7,5.0,,2,1,High,Anxious,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0085,True,2026-03-16T20:15:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,6,8.0,2,2,2,Light,Irritable,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0037,True,2026-03-17T00:30:00+00:00,Menopause-related observations,Daytime Hot Flash,6,8.0,,2,5,High,Balanced,Skipped breakfast,Warm tea and resting in the evening helped soothe the ache.
+SYN-0044,True,2026-03-17T02:00:00+00:00,Pregnancy-related observations,Lower Back Soreness,2,2.0,,3,4,High,Irritable,High sodium dinner,Comfortably managed with a heating pad on lower abdomen.
+SYN-0293,True,2026-03-17T02:15:00+00:00,Mood and well-being,Low Mood / Tearfulness,7,8.0,27,3,5,Moderate,Anxious,Skipped breakfast,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0110,True,2026-03-17T21:00:00+00:00,Pregnancy-related observations,Lower Back Soreness,4,1.0,,3,2,Sedentary,Irritable,Poor sleep previous night,Coincides with expected luteal phase hormonal shifts.
+SYN-0046,True,2026-03-18T00:00:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,3,3.5,,2,1,Moderate,Energetic,Caffeine late afternoon,Coincides with expected luteal phase hormonal shifts.
+SYN-0216,True,2026-03-18T21:45:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,6,3.5,1,3,5,Sedentary,Balanced,Skipped breakfast,"Mild intensity, did not interfere with daily routine."
+SYN-0287,True,2026-03-18T22:15:00+00:00,Menopause-related observations,Sudden Sweating,5,2.0,,2,3,Sedentary,Low,High stress workday,Noted following an unusually demanding deadline.
+SYN-0224,True,2026-03-18T23:15:00+00:00,Mood and well-being,Irritability / Brain Fog,4,5.0,,3,5,Sedentary,Anxious,Weather change,Felt mild discomfort after sitting for extended periods.
+SYN-0097,True,2026-03-19T17:00:00+00:00,Breast,Mild Bilateral Soreness,4,3.5,27,5,3,High,Irritable,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0115,True,2026-03-19T22:15:00+00:00,Menstrual,PMS Bloating,2,2.0,24,5,2,Sedentary,Anxious,None identified,Comfortably managed with a heating pad on lower abdomen.
+SYN-0284,True,2026-03-20T01:00:00+00:00,Digestive,Indigestion / Acid Reflux,3,3.5,,4,5,Moderate,Calm,Skipped breakfast,Warm tea and resting in the evening helped soothe the ache.
+SYN-0258,True,2026-03-21T00:15:00+00:00,Fatigue and sleep,General Physical Exhaustion,7,5.0,,4,1,Sedentary,Low,Weather change,Noticeable relief after gentle walking and stretching.
+SYN-0113,True,2026-03-22T19:30:00+00:00,Menstrual,Irregular Spotting,2,2.0,15,4,1,Sedentary,Low,Intense physical exertion,Warm tea and resting in the evening helped soothe the ache.
+SYN-0204,True,2026-03-22T22:15:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,5,2.0,,1,4,Moderate,Irritable,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0112,True,2026-03-22T22:45:00+00:00,Menopause-related observations,Sudden Sweating,5,8.0,,3,2,High,Calm,None identified,Comfortably managed with a heating pad on lower abdomen.
+SYN-0147,True,2026-03-22T23:30:00+00:00,Fatigue and sleep,General Physical Exhaustion,5,8.0,,4,3,High,Calm,High stress workday,Noticeable relief after gentle walking and stretching.
+SYN-0001,True,2026-03-23T16:00:00+00:00,Fatigue and sleep,Difficulty Falling Asleep,4,1.0,,1,5,Sedentary,Irritable,Weather change,Felt mild discomfort after sitting for extended periods.
+SYN-0164,True,2026-03-23T18:00:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,4,8.0,,4,1,Light,Calm,Skipped breakfast,Noted following an unusually demanding deadline.
+SYN-0145,True,2026-03-23T23:30:00+00:00,Breast,Underarm Sensitivity,3,5.0,,5,1,Light,Irritable,Skipped breakfast,Noticeable relief after gentle walking and stretching.
+SYN-0267,True,2026-03-24T00:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,8.0,,1,2,Moderate,Low,Skipped breakfast,Warm tea and resting in the evening helped soothe the ache.
+SYN-0214,True,2026-03-24T01:45:00+00:00,Pregnancy-related observations,Morning Nausea,7,1.0,,4,5,High,Energetic,High stress workday,Coincides with expected luteal phase hormonal shifts.
+SYN-0171,True,2026-03-24T05:30:00+00:00,Mood and well-being,Low Mood / Tearfulness,4,1.0,27,2,4,Moderate,Energetic,None identified,Coincides with expected luteal phase hormonal shifts.
+SYN-0096,True,2026-03-24T15:00:00+00:00,Menopause-related observations,Daytime Hot Flash,6,8.0,,1,4,High,Calm,Poor sleep previous night,"Mild intensity, did not interfere with daily routine."
+SYN-0275,True,2026-03-24T23:45:00+00:00,Breast,Mild Bilateral Soreness,5,2.0,25,4,1,Moderate,Energetic,None identified,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0114,True,2026-03-25T04:00:00+00:00,Other,Mild Dizziness on Standing,5,5.0,,5,1,High,Irritable,High sodium dinner,"Mild intensity, did not interfere with daily routine."
+SYN-0126,True,2026-03-25T20:15:00+00:00,Breast,Cyclical Breast Tenderness,4,3.5,22,4,4,Sedentary,Calm,High stress workday,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0008,True,2026-03-25T22:45:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,1.0,,2,5,Moderate,Balanced,Weather change,Noted following an unusually demanding deadline.
+SYN-0165,True,2026-03-26T05:45:00+00:00,Menopause-related observations,Sudden Sweating,4,2.0,,3,3,Sedentary,Calm,High sodium dinner,Felt mild discomfort after sitting for extended periods.
+SYN-0069,True,2026-03-26T21:00:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,2.0,,3,1,High,Irritable,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0023,True,2026-03-27T00:30:00+00:00,Fatigue and sleep,Difficulty Falling Asleep,5,1.0,,3,4,Light,Balanced,Intense physical exertion,Comfortably managed with a heating pad on lower abdomen.
+SYN-0146,True,2026-03-27T00:30:00+00:00,Menstrual,Cramping / Dysmenorrhea,3,0.5,3,2,5,High,Irritable,High stress workday,Comfortably managed with a heating pad on lower abdomen.
+SYN-0076,True,2026-03-27T03:15:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,5,5.0,,5,3,Sedentary,Energetic,Poor sleep previous night,Comfortably managed with a heating pad on lower abdomen.
+SYN-0035,True,2026-03-27T04:00:00+00:00,Fatigue and sleep,Unrefreshing Sleep,8,3.5,,3,4,Moderate,Irritable,Skipped breakfast,Coincides with expected luteal phase hormonal shifts.
+SYN-0090,True,2026-03-28T02:45:00+00:00,Breast,Mild Bilateral Soreness,2,3.5,27,4,3,Sedentary,Balanced,Caffeine late afternoon,Coincides with expected luteal phase hormonal shifts.
+SYN-0230,True,2026-03-28T05:15:00+00:00,Menstrual,PMS Bloating,4,8.0,25,4,1,Sedentary,Calm,High sodium dinner,Comfortably managed with a heating pad on lower abdomen.
+SYN-0088,True,2026-03-28T18:45:00+00:00,Menstrual,Pelvic Heaviness,6,2.0,28,2,1,High,Balanced,Intense physical exertion,Noted following an unusually demanding deadline.
+SYN-0291,True,2026-03-29T16:45:00+00:00,Pelvic or abdominal discomfort,Bowel Discomfort during Period,6,8.0,2,3,3,Moderate,Anxious,Skipped breakfast,Coincides with expected luteal phase hormonal shifts.
+SYN-0158,True,2026-03-29T18:00:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,2,3.5,13,4,2,High,Balanced,High sodium dinner,Noted following an unusually demanding deadline.
+SYN-0279,True,2026-03-29T21:15:00+00:00,Breast,Underarm Sensitivity,3,2.0,,1,1,High,Irritable,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0296,True,2026-03-29T21:30:00+00:00,Pregnancy-related observations,Morning Nausea,4,1.0,,2,3,High,Irritable,None identified,Noticeable relief after gentle walking and stretching.
+SYN-0066,True,2026-03-30T19:45:00+00:00,Fatigue and sleep,General Physical Exhaustion,7,0.5,,5,1,High,Balanced,Caffeine late afternoon,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0175,True,2026-03-31T16:00:00+00:00,Pelvic or abdominal discomfort,Mild Pelvic Pressure,2,2.0,,4,2,Light,Balanced,Weather change,"Mild intensity, did not interfere with daily routine."
+SYN-0098,True,2026-03-31T16:15:00+00:00,Pregnancy-related observations,Lower Back Soreness,3,3.5,,3,4,High,Energetic,Poor sleep previous night,"Mild intensity, did not interfere with daily routine."
+SYN-0262,True,2026-03-31T20:00:00+00:00,Mood and well-being,Low Mood / Tearfulness,7,1.0,27,5,3,Light,Energetic,High stress workday,Warm tea and resting in the evening helped soothe the ache.
+SYN-0057,True,2026-03-31T22:30:00+00:00,Fatigue and sleep,Unrefreshing Sleep,4,0.5,,2,3,Sedentary,Balanced,Skipped breakfast,Coincides with expected luteal phase hormonal shifts.
+SYN-0040,True,2026-03-31T23:45:00+00:00,Menstrual,Pelvic Heaviness,3,0.5,2,2,4,Moderate,Energetic,Weather change,Comfortably managed with a heating pad on lower abdomen.
+SYN-0064,True,2026-04-01T04:45:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,4,8.0,14,2,4,Sedentary,Irritable,High sodium dinner,Noticeable relief after gentle walking and stretching.
+SYN-0209,True,2026-04-01T05:00:00+00:00,Pelvic or abdominal discomfort,Right Lower Quadrant Twinge,4,1.0,14,5,1,High,Low,Weather change,Warm tea and resting in the evening helped soothe the ache.
+SYN-0005,True,2026-04-01T16:00:00+00:00,Digestive,Constipation before cycle,2,1.0,26,4,3,High,Balanced,Caffeine late afternoon,Noticeable relief after gentle walking and stretching.
+SYN-0043,True,2026-04-01T18:00:00+00:00,Pregnancy-related observations,Lower Back Soreness,4,5.0,,4,4,Sedentary,Anxious,Weather change,Noted following an unusually demanding deadline.
+SYN-0161,True,2026-04-01T18:45:00+00:00,Mood and well-being,Restlessness,4,5.0,,3,3,Sedentary,Irritable,Weather change,Noted following an unusually demanding deadline.
+SYN-0059,True,2026-04-01T23:15:00+00:00,Fatigue and sleep,Mid-Afternoon Slump,3,5.0,,3,2,High,Calm,High stress workday,Symptoms subsided after adequate hydration and early bedtime.
+SYN-0268,True,2026-04-02T01:30:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,6,1.0,,2,1,Moderate,Low,Poor sleep previous night,Felt mild discomfort after sitting for extended periods.
+SYN-0220,True,2026-04-02T04:45:00+00:00,Menopause-related observations,Nocturnal Flushing / Heat Surge,4,5.0,,1,2,Moderate,Calm,Intense physical exertion,Coincides with expected luteal phase hormonal shifts.

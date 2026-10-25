@@ -1,0 +1,43 @@
+# Virtual Environments
+backend/.venv/
+.venv/
+env/
+ENV/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Caches & Temporary files
+.tmp/
+*.tmp
+*.log
+
+# Databases & local instances
+backend/instance/*.db
+backend/instance/*.sqlite3
+*.db
+
+# Generated PDFs and reports (Health Passports contain user health data)
+backend/generated/*.pdf
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
