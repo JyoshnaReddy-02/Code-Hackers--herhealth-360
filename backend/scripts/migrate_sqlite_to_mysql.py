@@ -9,10 +9,14 @@ import sys
 import argparse
 from datetime import datetime
 
-# Add backend directory to sys.path
+from dotenv import load_dotenv
+
+# Add backend directory to sys.path and load environment variables
 backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if backend_dir not in sys.path:
     sys.path.insert(0, backend_dir)
+
+load_dotenv(os.path.join(backend_dir, ".env"))
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -95,7 +99,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_u)
                 user_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {user_count} Users (Total in SQLite: {len(users)})")
+        print(f"[+] Migrated {user_count} Users (Total in SQLite: {len(users)})")
 
         # B. Doctors
         doctors = sqlite_session.query(Doctor).all()
@@ -116,7 +120,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_d)
                 doc_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {doc_count} Doctors (Total in SQLite: {len(doctors)})")
+        print(f"[+] Migrated {doc_count} Doctors (Total in SQLite: {len(doctors)})")
 
         # C. Availability Slots
         slots = sqlite_session.query(AvailabilitySlot).all()
@@ -134,7 +138,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_s)
                 slot_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {slot_count} Availability Slots (Total in SQLite: {len(slots)})")
+        print(f"[+] Migrated {slot_count} Availability Slots (Total in SQLite: {len(slots)})")
 
         # D. Appointments
         appointments = sqlite_session.query(Appointment).all()
@@ -156,7 +160,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_a)
                 apt_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {apt_count} Consultations/Appointments (Total in SQLite: {len(appointments)})")
+        print(f"[+] Migrated {apt_count} Consultations/Appointments (Total in SQLite: {len(appointments)})")
 
         # E. Symptoms
         symptoms = sqlite_session.query(SymptomEntry).all()
@@ -185,7 +189,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_s)
                 sym_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {sym_count} Symptom Entries (Total in SQLite: {len(symptoms)})")
+        print(f"[+] Migrated {sym_count} Symptom Entries (Total in SQLite: {len(symptoms)})")
 
         # F. Health Resources
         resources = sqlite_session.query(HealthResource).all()
@@ -212,7 +216,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_r)
                 res_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {res_count} Educational Resources (Total in SQLite: {len(resources)})")
+        print(f"[+] Migrated {res_count} Educational Resources (Total in SQLite: {len(resources)})")
 
         # G. Exercises
         exercises = sqlite_session.query(ExercisePractice).all()
@@ -238,7 +242,7 @@ def migrate(source_sqlite_path: str, target_mysql_url: str):
                 mysql_session.add(new_e)
                 ex_count += 1
         mysql_session.commit()
-        print(f"[✓] Migrated {ex_count} Evidence-Based Exercises (Total in SQLite: {len(exercises)})")
+        print(f"[+] Migrated {ex_count} Evidence-Based Exercises (Total in SQLite: {len(exercises)})")
 
         print("=" * 65)
         print(" SUCCESS: All SQLite data successfully copied into MySQL!")
